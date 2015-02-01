@@ -15,3 +15,6 @@ markdown: kramdown
 
 # Exclude for deploy
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
+
+sass:
+  style: compressed
