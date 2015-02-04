@@ -1,0 +1,29 @@
+/***
+  Site standards
+  --------------
+***/
+body {
+  background: #fafafa;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+header, footer {
+  width: 100%;
+}
+
+header {
+  background: #007ea2;
+}
+
+header img {
+  width: 95%;
+}
+
+.wrapper {
+  margin: 0px auto;
+  max-width: 900px;
+  width: 100%;
+  padding: 1em;
+}
