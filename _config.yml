@@ -8,7 +8,8 @@ twitter_username: hackferencebrum
 github_username:  hackference
 
 # URL stuff
-url: "http://2015.hackference.co.uk"
+baseurl: ""
+#url: "http://2015.hackference.co.uk"
 
 # Build settings
 markdown: kramdown
