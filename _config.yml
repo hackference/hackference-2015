@@ -1,11 +1,9 @@
 # Site settings
 title: Hackference
-email: your-email@domain.com
+email: mike@hackference.co.uk
 description: > # this means to ignore newlines until "baseurl:"
   Hackference, a conference and hackathon built to inspire.
   Crafted by developers for developers, giving you more things to play with.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://2015.hackference.co.uk" # the base hostname & protocol for your site
 twitter_username: hackferencebrum
 github_username:  hackference
 
