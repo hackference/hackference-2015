@@ -408,11 +408,13 @@ title: "Sponsor Hackference"
 <ul>
 
 <script type="text/javascript" >
-$(document).on('ready',function(){
-  $('th').hover(function(){
-    $(this).children('sub.hidden').removeClass('hidden');
-  },function(){
+$(document).ready(function(){
+  var onHoverIn = function(){
+    $(this).children('sub').removeClass('hidden');
+  }
+  var onHoverOut = function(){
     $(this).children('sub').addClass('hidden');
-  });
+  }
+  $('th').hover(onHoverIn,onHoverOut);
 });
 </script>
