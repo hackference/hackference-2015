@@ -24,7 +24,7 @@ title: "Sponsor Hackference"
 <div class="page-header" >The packages</div>
 <p>All the packages are listed below:</p>
 
-<table>
+<table id="sponsorship-tiers">
 
   <thead>
     <tr>
@@ -407,14 +407,4 @@ title: "Sponsor Hackference"
   <li>Phone: <a href="tel:+447816961602" >(+44) 07816961602</a></li>
 <ul>
 
-<script type="text/javascript" >
-$(document).ready(function(){
-  var onHoverIn = function(){
-    $(this).children('sub').removeClass('hidden');
-  }
-  var onHoverOut = function(){
-    $(this).children('sub').addClass('hidden');
-  }
-  $('th').hover(onHoverIn,onHoverOut);
-});
-</script>
+<script type="text/javascript" src="{{ "/js/sponsorship.js" | prepend: site.baseurl }}" ></script>
