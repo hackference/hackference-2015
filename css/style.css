@@ -65,6 +65,10 @@ body {
 	color: #2980b9;
 }
 
+tbody.sponsor-pack-items th {
+	display: inline-block;
+}
+
 @media (max-width: 767px) {
 
 	#topbar { height: 150px; }
