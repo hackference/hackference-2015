@@ -1,0 +1,15 @@
+- name: Rob Spectre
+  pretty: rob-spectre
+  image: speaker/rob_spectre.png
+  desc: Punk Rock Technolologist
+  github: RobSpectre
+  twitter: dn0t
+  website: 
+
+- name: Ruth John
+  pretty: ruth-john
+  image: speaker/ruth_john.png
+  desc: None
+  github: 
+  twitter: rumyra
+  website: http://rumyrashead.com

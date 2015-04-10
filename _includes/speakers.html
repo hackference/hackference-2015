@@ -1,0 +1,12 @@
+{% for speaker in site.data.speakers %}
+<div class="col-md-3 col-xs-6 speaker">
+	<a href='{{ site.url }}speakers/{{ speaker.pretty }}'>
+		<img src='{{ site.url }}assets/{{ speaker.image }}' width="100%"/>
+		{{ speaker.name }}
+	</a>
+	<p>{{ speaker.desc }}</p>
+	{% if speaker.github %}<a href='https://github.com/{{ speaker.github }}'><i class="fa fa-github"></i></a>{% endif %}
+	{% if speaker.twitter %}<a href='https://twitter.com/{{ speaker.twitter }}'><i class="fa fa-twitter"></i></a>{% endif %}
+	{% if speaker.website %}<a href='{{ speaker.website }}'><i class="fa fa-globe"></i></a>{% endif %}	
+</div>
+{% endfor %}

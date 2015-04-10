@@ -1,0 +1,38 @@
+@media (max-width: 767px) {
+
+	.allow-for-submenu {
+		padding-top: 220px;
+	}
+	#hero { padding-top: 90px; }
+	#hero h2 {
+		font-size: 22px;
+		line-height: 30px;
+	}
+	#hero p { font-size: 14px; }
+	#hero span {display:block;}
+	#top-section {
+		height: auto;
+		min-height: 400px;
+	}
+	.nopadding-xs { padding: 0 !important;}
+	.text-center-xs { text-align: center;}
+	.speaker { padding: 0 !important;}
+	.map-row { margin: 70px 0 0px;}
+	.sub-section-row { margin: 20px 0;}
+	.text-panel { padding: 20px;}
+	ul.resp-nav {
+		margin: -10px 0 30px;
+		padding: 0;
+		list-style-type: none;
+	}
+
+	ul.resp-nav li a {
+		color: #FFF;
+		padding: 0 20px;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	.btn-buy-ticket {
+		border: none;
+	}
+}
