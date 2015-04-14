@@ -28,8 +28,8 @@
 						<div class="row image-row speaker-details">
 							<div class="col-md-4 speaker-image">
 								<img src='{{ site.url }}{{ site.baseurl }}/assets/{{ page.image }}' width="100%"/>
-								<h4>Developer !! Network</h4>
-								{% if page.website %}<h5>{{ page.company }}</h5>{% endif %}
+								{% if page.job %}<h4>{{ page.job }}</h4>{% endif %}
+								{% if page.company %}<h5>{{ page.company }}</h5>{% endif %}
 							  {% if page.github %}<a href='https://github.com/{{ page.github }}'><i class="fa fa-github"></i>{{ page.github }}</a>{% endif %}
 							  {% if page.twitter %}<a href='https://twitter.com/{{ page.twitter }}'><i class="fa fa-twitter"></i>@{{ page.twitter }}</a>{% endif %}
 							  {% if page.website %}<a href='{{ page.website }}'><i class="fa fa-globe"></i>{{ page.website }}</a>{% endif %}
