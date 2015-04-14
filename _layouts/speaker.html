@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{% include head.html %}
+</head>
+<body>
+
+	{% include top-navigation.html %}
+
+  <div id="top-section-page">
+  		<div class="container">
+  			<div class="row" id="page-info">
+  				<div class="col-md-8 col-md-offset-1 text-left text-center-xs">
+  					<h2>{{page.name }}</h2>
+  				</div>
+  				<div class="col-md-2 hidden-xs text-right">
+  					<h2><a href='{{ site.url }}tickets' class="btn btn-ticket btn-lg">Buy a ticket</a></h2>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+
+  	<div id="page-content">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-md-10 col-md-offset-1">
+  					<div class="text-panel text-panel-peek">
+						<div class="row image-row speaker-details">
+							<div class="col-md-4 speaker-image">
+								<img src='{{ site.url }}assets/{{ page.image }}' width="100%"/>
+								<h4>Developer !! Network</h4>
+								{% if page.website %}<h5>{{ page.company }}</h5>{% endif %}
+							  {% if page.github %}<a href='https://github.com/{{ page.github }}'><i class="fa fa-github"></i>{{ page.github }}</a>{% endif %}
+							  {% if page.twitter %}<a href='https://twitter.com/{{ page.twitter }}'><i class="fa fa-twitter"></i>@{{ page.twitter }}</a>{% endif %}
+							  {% if page.website %}<a href='{{ page.website }}'><i class="fa fa-globe"></i>{{ page.website }}</a>{% endif %}
+							</div>
+							<div class="col-md-8">
+              {{ content }}
+							</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+
+	{% include footer.html %}
+
+	{% include javascript-files.html %}
+
+</body>
+</html>
