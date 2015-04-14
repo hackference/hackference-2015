@@ -3,8 +3,9 @@ title: Hackference 2015
 email: jp@jakelprice.com
 description: >
   Hackference 2015 website
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://hackference.github.io/hackference-2015/" # the base hostname & protocol for your site
+baseurl: "hackference-2015/" # the subpath of your site, e.g. /blog/
+url: "http://hackference.github.io/" # the base hostname & protocol for your site
+#baseurl: "" # Dev Path
 #url: "http://127.0.0.1:4000/" #Dev Path
 twitter_username: jakelprice
 github_username:  jakeprice86
