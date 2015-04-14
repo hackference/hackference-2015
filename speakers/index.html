@@ -32,7 +32,7 @@ title: Hackference 2015 - Speakers
 								{% for speaker in site.speakers %}
 								<div class="col-md-3 col-xs-6 speaker">
 									<a href='{{ speaker.url }}'>
-										<img src='{{ site.url }}assets/{{ speaker.image }}' width="100%"/>
+										<img src='{{ site.url }}{{ site.baseurl }}assets/{{ speaker.image }}' width="100%"/>
 										{{ speaker.name }}
 									</a>
 									<p>{{ speaker.desc }}</p>
