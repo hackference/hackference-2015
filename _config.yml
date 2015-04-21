@@ -7,6 +7,7 @@ baseurl: "/hackference-2015" # the subpath of your site, e.g. /blog/
 #url: "http://hackference.github.io" # the base hostname & protocol for your site
 #baseurl: "" # Dev Path
 url: "http://127.0.0.1:4000/" #Dev Path
+cfp: "http://cfp.hackference.co.uk"
 twitter_username: jakelprice
 github_username:  jakeprice86
 collections:
