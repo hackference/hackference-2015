@@ -91,7 +91,7 @@ body {
 }
 
 #hero { padding-top: 160px;z-index: 0; }
-#hero h2 { 
+#hero h2 {
 	font-size: 32px;
 	font-weight: 600;
 	line-height: 40px;
@@ -251,7 +251,7 @@ ul.nice-list li a {
 }
 
 .widget-body {
-	padding: 0 20px 20px;	
+	padding: 0 20px 20px;
 }
 
 .widget-header {
@@ -395,6 +395,8 @@ ul.nice-list li a {
 }
 
 .speaker-image a i {margin-right: 10px;}
+
+.speak-yourself {line-height: 155px}
 
 .text-panel-peek {
 	margin-top: -70px;
