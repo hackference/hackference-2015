@@ -350,12 +350,15 @@ ul.nice-list li a {
 	margin-bottom: 20px;
 }
 
- p.desc {
+ p.desc, div.desc {
 	line-height: 160%;
 	margin: 0 0 30px;
 	font-size: 15px;
 }
 
+div.desc { 
+	margin: 0 0 10px;
+}
 .speaker-details h3 {
 	margin: 0 0 20px;
 	font-weight: 700;
@@ -567,4 +570,88 @@ table.sponsor-table tbody tr:nth-child(odd) {
 
 #footer .footer-form {
 	margin: 0 0 15px;
+}
+
+.extra_header {
+	font-weight: 700;
+}
+
+.extra_cost {
+	font-size: 95%;
+	margin: 0 0 25px;
+}
+
+/* Tito Widget */
+.tito-wrapper {
+	border: none;
+  	background: #FFF;
+  	font-family: 'Open Sans', sans-serif;
+  	padding: 0;
+  	max-width: 100%;
+  	color: #2c3e50;
+  	margin: 0;
+}
+
+.tito-ticket {
+	margin: 0 0 20px;
+	display: block;
+	width: 100%;
+}
+
+.tito-ticket-name-wrapper {
+	border: none;
+	width: 80%;
+	display: block;
+	float: left;
+}
+
+.tito-ticket-price-quantity-wrapper {
+	border: none;
+	width: 20%;
+	display: block;
+	float: left;
+}
+
+.tito-ticket-name {
+	font-size: 24px;
+	line-height: 44px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.tito-ticket-description {
+	font-size: 14px;
+	line-height: 160%;
+}
+
+.tito-submit-wrapper {
+	text-align: center;
+}
+
+.tito-submit-wrapper .tito-submit {
+	background: #015871;
+	color: #FFFFFF;
+	padding: 10px 15px;
+	border: none;
+	height: auto;
+	font-weight: 700;
+	border: 2px solid rgba(1, 88, 113, 1);
+	-o-transition-property: all;
+	-webkit-transition-property: all;
+	transition-property: all;
+	-o-transition-duration: 0.25s;
+	-webkit-transition-duration: 0.25s;
+	transition-duration: 0.25s;
+	-o-transition-timing-function: ease-in-out;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+	-o-transition-delay: 0s;
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.tito-submit-wrapper .tito-submit:hover {
+	background: rgba(255, 255, 255, 1);
+	color: #027394;
+	font-weight: 700;
 }
