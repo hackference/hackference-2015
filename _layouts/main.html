@@ -9,7 +9,10 @@
 
 	{{ content }}
 
-	{% include our-sponsors-page-include.html %}
+	{% if page.title != 'Hackference 2015 - Sponsors' %}
+		{% include our-sponsors-page-include.html %}
+	{% endif %}
+
 
 	{% include footer.html %}
 
