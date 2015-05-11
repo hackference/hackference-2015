@@ -655,3 +655,21 @@ table.sponsor-table tbody tr:nth-child(odd) {
 	color: #027394;
 	font-weight: 700;
 }
+
+.tito-discount-code {
+	width: 50%;
+}
+
+.tito-discount-code-show a {
+	font-size: 20px;
+	line-height: 40px;
+	font-weight: 700;
+}
+
+.tito-discount-code-form-wrapper .row {
+	margin: 0;
+}
+
+.tito-discount-code-edit {
+	width: 30%;
+}
