@@ -1,21 +1,19 @@
 # Site settings
-title: Hackference
+title: Hackference 2015
 email: mike@hackference.co.uk
-description: > # this means to ignore newlines until "baseurl:"
-  Hackference, a conference and hackathon built to inspire.
-  Crafted by developers for developers, giving you more things to play with.
+description: >
+  Hackference 2015 website
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://2015.hackference.co.uk" # the base hostname & protocol for your site
+#baseurl: "" # Dev Path
+#url: "http://127.0.0.1:4000/" #Dev Path
+cfp: "http://cfp.hackference.co.uk"
 twitter_username: hackferencebrum
 github_username:  hackference
+collections:
+  speakers:
+    output: true
 
-# URL stuff
-baseurl: ""
-#url: "http://2015.hackference.co.uk"
 
 # Build settings
 markdown: kramdown
-
-# Exclude for deploy
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
-
-sass:
-  style: compressed

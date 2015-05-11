@@ -1,0 +1,18 @@
+{% for speaker in site.speakers %}
+<div class="col-md-3 col-xs-6 speaker">
+  <a href='{{ site.url }}{{ site.baseurl }}{{ speaker.url }}'>
+    <img src='{{ site.url }}{{ site.baseurl }}/assets/{{ speaker.image }}' width="100%"/>
+    {{ speaker.name }}
+  </a>
+  <p>{% if speaker.desc %}{{ speaker.desc }}{% endif %}</p>
+  {% if speaker.github %}<a href='https://github.com/{{ speaker.github }}'><i class="fa fa-github"></i></a>{% endif %}
+  {% if speaker.twitter %}<a href='https://twitter.com/{{ speaker.twitter }}'><i class="fa fa-twitter"></i></a>{% endif %}
+  {% if speaker.website %}<a href='{{ speaker.website }}'><i class="fa fa-globe"></i></a>{% endif %}
+</div>
+{% endfor %}
+<div class="col-md-3 col-xs-6 speaker">
+  <a href='{{ site.cfp }}'>
+    <img src='http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?f=y&d=mm&s=200' width="100%"/>
+    Why not speak yourself?
+  </a>
+</div>

@@ -1,48 +1,38 @@
-<footer id="footer" style="height: 310px">
-	<div class="container">
-		<div class="row" >
-			<div class="col-md-8">
-				<h2>Interested?</h2>
-				<p>Watch this space, the official site will be released shortly with all the information you will need. If you can't wait sign up for the update newsletter below.</p>
-				<h2>We would love to hear from you!</h2>
-				<p>If you're interested in sponsoring, please contact on <a href='mailto:sponsorship@hackference.co.uk'>sponsorship@hackference.co.uk</a>.</p>
-				<p>You can catch us on <a href='https://twitter.com/hackferencebrum'>Twitter</a> or <a href='mailto:mike@hackference.co.uk'>by Email</a>. If you want to find out about Hackference in the past go to <a href="http://2014.hackference.co.uk" >2014</a> or <a href="http://2013.hackference.co.uk" >2013</a></p>
-
-			</div>
-			<div class="col-md-4">
-				<!-- Begin MailChimp Signup Form -->
-				<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-				<style type="text/css">
-					#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-					/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-						We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-				</style>
-				<div id="mc_embed_signup">
-				<form action="//hackference.us10.list-manage.com/subscribe/post?u=6d8df0266d881f193098c49f0&amp;id=973bd1522a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<a href='{{ site.url }}{{ site.baseurl }}/' class="hf-logo"><img src='{{ site.url }}{{ site.baseurl }}/assets/logo.png' alt="Hackference" /></a>
+					<p class="footer-hero"><em>Hackference is a conference and hackathon based around learning and inspiring people to hack.</em></p>
+					<ul class="footer_nav">
+						<li><a href='{{ site.url }}{{ site.baseurl }}/code-of-conduct.html'>Code of Conduct</a></li>
+						<li><a href='{{ site.url }}{{ site.baseurl }}/our-team'>Our Team</a></li>
+						<li>Photos by <a href='http://www.cassandralane.co.uk/'>Cassandra Lane</a>, <a href='http://twitter.com/andypiper'>Andy Piper</a> and <a href='https://twitter.com/hazanjon'>Jon Hazan</a></li>
+					</ul>
+				</div>
+				<div class="col-md-6 text-right right-">
+					<p class="footer-hero">Join our newsletter and stay in touch</p><!--End mc_embed_signup-->
+					<form action="//hackference.us10.list-manage.com/subscribe/post?u=6d8df0266d881f193098c49f0&amp;id=973bd1522a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline footer-form" target="_blank" novalidate>
 						<div id="mc_embed_signup_scroll">
-
-				<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-				<div class="mc-field-group">
-					<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-				</label>
-					<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-				</div>
-				<div class="mc-field-group">
-					<label for="mce-MMERGE3">Name </label>
-					<input type="text" value="" name="MMERGE3" class="" id="mce-MMERGE3">
-				</div>
-					<div id="mce-responses" class="clear">
-						<div class="response" id="mce-error-response" style="display:none"></div>
-						<div class="response" id="mce-success-response" style="display:none"></div>
-					</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-						<div style="position: absolute; left: -5000px;"><input type="text" name="b_6d8df0266d881f193098c49f0_973bd1522a" tabindex="-1" value=""></div>
-						<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+							<div class="input-group">
+								<div id="mce-responses" class="clear">
+									<div class="response" id="mce-error-response" style="display:none"></div>
+									<div class="response" id="mce-success-response" style="display:none"></div>
+								</div>
+								<input type="email" value="" name="EMAIL" class="required email form-control col-md-10" placeholder="Email Address" id="mce-EMAIL">
+								<div style="position: absolute; left: -5000px;"><input type="text" name="b_6d8df0266d881f193098c49f0_973bd1522a" tabindex="-1" value=""></div>
+								<span class="input-group-btn">
+									<button class="btn btn-subscribe" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" >Subscribe</button>
+								</span>
+							</div><!-- /input-group -->
 						</div>
-				</form>
+					</form>
+					<ul class="footer_nav">
+						<li>Created with <a href='http://jekyllrb.com/'>Jeykll</a></li>
+						<li>Website hosted using <a href='https://pages.github.com/'>Github Pages</a></li>
+						<li>Registered company 09529922</li>
+					</ul>
 				</div>
-				<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='MMERGE3';ftypes[3]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-				<!--End mc_embed_signup-->
 			</div>
 		</div>
 	</div>
-</footer>

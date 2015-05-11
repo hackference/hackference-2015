@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 layout: default
 ---
@@ -9,3 +10,87 @@ layout: default
 
 <div class="page-header">Call for Speakers</div>
 <p>If you'd like to speak at Hackference, we'll be opening a Call for Speakers with the release of the site. If you'd like to find out more in advance, please e-mail <a href='mailto:cfp@hackference.co.uk'>cfp@hackference.co.uk</a></p>
+=======
+---
+layout: main
+title: Hackference 2015
+---
+
+<div id="top-section">
+
+		<div id="hero">
+			<div class="container">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<h2><strong>Hackference</strong> is a conference and hackathon based around <strong>learning and inspiring people to hack.</strong></h2>
+					<p><i class="fa fa-map-marker"></i>Birmingham UK<span></span><i class="fa fa-calendar" style="margin-left: 20px"></i>2nd, 3rd and 4th October 2015</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div id="content">
+
+		<div class="container">
+			<div class="col-md-12 text-center">
+				<h2>1 Conference. 1 Hackathon. 3 Amazing Days.</h2>
+				<h3>Want to listen to the experts or just play with tech? How about both? Here's an amazing opportunity to listen to the best people explain tech subjects and then get stuck in!</h3>
+			</div>
+			<div class="col-md-5 col-md-offset-1">
+				<div class="widget widget-conf">
+					<img src='{{ site.url }}{{ site.baseurl }}/assets/conf_small.png' width="100%">
+					<div class="widget-body">
+						<h2>The Conference</h2>
+						<h3>Fri 2nd October 2015</h3>
+						<p>Our amazing conference is back, this time with 3 tracks - including a lightning and workshop track - 16 amazing speakers all packed into 1 day.</p>
+						<p><a href='{{ site.url }}{{ site.baseurl }}/conference'>Read more about our Conference</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-5">
+				<div class="widget widget-conf">
+					<img src='{{ site.url }}{{ site.baseurl }}/assets/hack_small.png' width="100%">
+					<div class="widget-body">
+						<h2>The Hackathon</h2>
+						<h3>Sat 3rd - Sun 4th October 2015</h3>
+						<p>What better way to spend a weekend than to build something awesome in the company of people who love to build stuff as well. It's free.</p>
+						<p><a href='{{ site.url }}{{ site.baseurl }}/hackathon'>Read more about the Hackathon</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid map-row">
+			<div class="row">
+				<div class="col-md-4 map-view map-noscroll-container" style="padding: 0">
+					{% include conference-map.html %}
+				</div>
+				<div class="col-md-4 map-view map-view-center text-center" style="background: url('{{ site.url }}{{ site.baseurl }}/assets/mike.png')">
+					<p>Locations within the center of Birmingham</p>
+					<a href='{{ site.url }}{{ site.baseurl }}/info' class="btn btn-ticket">More Information</a>
+				</div>
+				<div class="col-md-4 map-view map-noscroll-container" style="padding: 0">
+					{% include hackathon-map.html %}
+				</div>
+			</div>
+		</div>
+
+		<a id="speakers">&nbsp;</a>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h2>Conference Speakers</h2>
+					<h3>"Tell me and I forget. Teach me and I remember. Involve me and I learn" - <em>Benjamin Franklin</em></h3>
+				</div>
+			</div>
+			<div class="row speakers-row">
+				<div class="col-md-10 col-md-offset-1 nopadding-xs">
+					<div class="row speakers-row-list">
+						{% include speakers.html %}
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+>>>>>>> gh-pages
