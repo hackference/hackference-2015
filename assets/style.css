@@ -31,6 +31,11 @@ body {
 	max-height: 29px;
 }
 
+.border-b {
+	padding: 0 0 20px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
 #top-nav {
 	-webkit-transition: all .3s ease-out;
 	background: none;
@@ -260,7 +265,7 @@ ul.nice-list li a {
 	line-height: 40px;
 	font-size: 22px;
 	font-weight: 700;
-    margin: 0 0 30px;
+	margin: 0 0 30px;
 }
 
 .widget-conf {
@@ -288,6 +293,7 @@ ul.nice-list li a {
 .map-row { margin: 100px 0 30px; }
 .sub-section-row { margin: 70px 0 60px;}
 .map-view { min-height: 300px; }
+.sponsor-view { min-height: 100px; }
 #content .map-view-center p {
 	color: #FFF;
 	font-size: 30px;
@@ -299,10 +305,28 @@ ul.nice-list li a {
 
 .map-view-center a {
 	border: 2px solid rgba(255, 255, 255, 0.6);
-  	padding: 8px 17px;
-  	border-radius: 3px;
-  	font-size: 18px;
-  	color: #FFF;
+	padding: 8px 17px;
+	border-radius: 3px;
+	font-size: 18px;
+	color: #FFF;
+}
+
+.sponsor-view-center .our-sponsors-p-tag {
+	color: #FFF;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 50px;
+	letter-spacing: -1px;
+	padding: 20px 15px 15px;
+}
+
+.sponsor-view-center a {
+	border: 2px solid rgba(255, 255, 255, 0.6);
+	padding: 8px 17px;
+	border-radius: 3px;
+	font-size: 18px;
+	color: #FFF;
+	margin: 0 0 30px;
 }
 
 .sub-section-view { min-height: 250px; }
@@ -350,7 +374,7 @@ ul.nice-list li a {
 	margin-bottom: 20px;
 }
 
- p.desc, div.desc {
+p.desc, div.desc {
 	line-height: 160%;
 	margin: 0 0 30px;
 	font-size: 15px;
@@ -455,6 +479,15 @@ div.desc {
 
 .show-sponsor {
 	margin-top: 30px;
+}
+
+.show-sponsor h3 {
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: -1px;
+	color: rgb(44, 62, 80);
+	margin: 20px 0 40px;
 }
 
 .show-sponsor a h4 {
@@ -584,12 +617,12 @@ table.sponsor-table tbody tr:nth-child(odd) {
 /* Tito Widget */
 .tito-wrapper {
 	border: none;
-  	background: #FFF;
-  	font-family: 'Open Sans', sans-serif;
-  	padding: 0;
-  	max-width: 100%;
-  	color: #2c3e50;
-  	margin: 0;
+	background: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	max-width: 100%;
+	color: #2c3e50;
+	margin: 0;
 }
 
 .tito-ticket {
@@ -654,4 +687,48 @@ table.sponsor-table tbody tr:nth-child(odd) {
 	background: rgba(255, 255, 255, 1);
 	color: #027394;
 	font-weight: 700;
+}
+
+.tito-discount-code {
+	width: 50%;
+}
+
+.tito-discount-code-show a {
+	font-size: 20px;
+	line-height: 40px;
+	font-weight: 700;
+}
+
+.tito-discount-code-form-wrapper .row {
+	margin: 0;
+}
+
+.tito-discount-code-edit {
+	width: 30%;
+}
+
+.sponsor-desc {
+	line-height: 160%;
+	margin: 0 0 10px;
+	font-size: 13px;
+}
+
+.sponsor-page-listings {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.sponsor-widget {
+	background: #FFF;
+	-moz-box-shadow: 0 1px 0 0 #ccc;
+	-webkit-box-shadow: 0 1px 0 0 #ccc;
+	box-shadow: 0 1px 0 0 #ccc;
+	margin: 0 0 20px;
+}
+
+.sponsor-widget h4 {
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 700;
+	padding: 0 0 20px;
 }

@@ -2,8 +2,8 @@
 title: Hackference 2015
 email: mike@hackference.co.uk
 description: >
-  Hackference 2015 website
-baseurl: "" # the subpath of your site, e.g. /blog/
+  Hackference is a conference and hackathon based around learning and inspiring people to hack - October 2nd, 3rd and 4th 2015 in Birmingham, UK
+baseurl: "" # the subpath of your site, e.g. /blog/,
 url: "http://2015.hackference.co.uk" # the base hostname & protocol for your site
 #baseurl: "" # Dev Path
 #url: "http://127.0.0.1:4000/" #Dev Path
