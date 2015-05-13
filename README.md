@@ -1,9 +1,0 @@
-# hackference-2015
-
-[![Join the chat at https://gitter.im/hackference/hackference-2015](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/hackference/hackference-2015?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-[ ![Codeship Status for hackference/hackference-2015](https://codeship.com/projects/ab27a570-8fc4-0132-8d56-16d2d56384b1/status?branch=master)](https://codeship.com/projects/61366)
-
-Currently just the holding page for the event.
-
-If you wish to share any information, correct a typo or just generally clean up anything. Please file a PR.
