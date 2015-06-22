@@ -732,3 +732,17 @@ table.sponsor-table tbody tr:nth-child(odd) {
 	font-weight: 700;
 	padding: 0 0 20px;
 }
+
+.sponsor-slot {
+	margin-bottom: 30px;
+}
+
+.conf h2 {
+	margin-bottom: 20px;
+}
+
+.conf p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+}
