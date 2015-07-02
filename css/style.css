@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+
+/* Default Styles */
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-webkit-font-smoothing: antialiased !important;
+	height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: #FFF;
+	font-size: 18px;
+	font-weight: 300;
+	color: #2c3e50;
+	position: relative;
+	height: 100%;
+}
+
+#topbar {
+	height: 350px;
+	line-height: 150px;
+	background: #007EA2 url('/images/cityscape.png') repeat no-repeat bottom center;
+	width: 100%;
+	text-align: center;
+}
+
+.logo {
+	padding-top: 100px;
+}
+
+#content {
+	margin-bottom: 100px;
+}
+
+#content .page-header {
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: -1px;
+	text-align: center;
+	border: none;
+}
+
+#content p {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+#footer {
+	background: #dadfe1;
+	font-size: 14px;
+}
+
+#footer h2 {
+	line-height: 40px;
+	font-size: 22px;
+}
+
+#footer a {
+	color: #2980b9;
+}
+
+tbody.sponsor-pack-items th {
+	display: inline-block;
+}
+
+@media (max-width: 767px) {
+
+	#topbar { height: 150px; }
+	#topbar .logo {padding-top: 60px; }
+	#topbar .logo img { width: 80%; }
+	#footer { height: auto; }
+	#footer h2 { font-size: 22px;line-height: 30px; }
+}
