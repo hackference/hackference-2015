@@ -623,6 +623,7 @@ table.sponsor-table tbody tr:nth-child(odd) {
 	max-width: 100%;
 	color: #2c3e50;
 	margin: 0;
+	position: relative;
 }
 
 .tito-ticket {
@@ -658,13 +659,13 @@ table.sponsor-table tbody tr:nth-child(odd) {
 }
 
 .tito-submit-wrapper {
-	text-align: center;
+	text-align: left;
 }
 
 .tito-submit-wrapper .tito-submit {
 	background: #015871;
 	color: #FFFFFF;
-	padding: 10px 15px;
+	padding: 10px 35px;
 	border: none;
 	height: auto;
 	font-weight: 700;
@@ -681,6 +682,7 @@ table.sponsor-table tbody tr:nth-child(odd) {
 	-o-transition-delay: 0s;
 	-webkit-transition-delay: 0s;
 	transition-delay: 0s;
+	width: auto;
 }
 
 .tito-submit-wrapper .tito-submit:hover {
@@ -705,6 +707,17 @@ table.sponsor-table tbody tr:nth-child(odd) {
 
 .tito-discount-code-edit {
 	width: 30%;
+}
+
+.tito-ticket-description {
+	font-size: 13px;
+}
+
+.tito-badge-link {
+	text-align: right;
+	position: absolute;
+	right: 0;
+	bottom: 30px;
 }
 
 .sponsor-desc {
@@ -745,4 +758,12 @@ table.sponsor-table tbody tr:nth-child(odd) {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 26px;
+}
+
+ul.desc-ul {
+	margin-top: 0;
+}
+
+ul.desc-ul li {
+	font-size: 15px;
 }
