@@ -1,8 +1,13 @@
   <meta charset="utf-8">
+	
 	<title>{{ page.title }}</title>
+	<meta name="description" content="{{ site.description | xml_escape }}">
+	<meta property="og:title" content="{{ site.title | xml_escape }}">
+	<meta property="og:type" content="{{ site.ogtype | xml_escape }}">
+	<meta property="og:url" content="{{ site.ogurl | xml_escape }}">
+	<meta property="og:image" content="{{ site.ogimage | xml_escape }}">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="{{ site.description }}" />
 	<meta name="robots" content="index, follow" />
 	<meta name="author" content="Mike Elsmore, Jake Price, Curtis Harding">
 
