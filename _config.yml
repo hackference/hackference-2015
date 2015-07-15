@@ -17,3 +17,8 @@ collections:
 
 # Build settings
 markdown: kramdown
+
+# Defaults for the OG
+ogtype: website
+ogurl: http://2015.hackference.co.uk
+ogimage: https://pbs.twimg.com/profile_images/479922447165050881/eXpue-gY.png
