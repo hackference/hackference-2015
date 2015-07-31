@@ -10,7 +10,7 @@ title: Hackference 2015 - Hackathon
 					<h2>Hackathon</h2>
 				</div>
 				<div class="col-md-4 hidden-xs text-right">
-					<h2><a href='{{ site.url }}{{ site.baseurl }}/tickets.html#hackathon' class="btn btn-ticket btn-lg">Get a Ticket</a></h2>
+					<h2><a href='{{ site.url }}{{ site.baseurl }}/tickets.html#hackathon' class="btn btn-ticket btn-lg">Buy a Ticket</a></h2>
 				</div>
 			</div>
 		</div>
@@ -21,57 +21,96 @@ title: Hackference 2015 - Hackathon
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="text-panel text-panel-peek">
-						This year is our <strong>biggest ever</strong> hackathon - being held in one of the best venues Birmingham have to offer.
-					</div>
-				</div>
-			</div>
-
-			<!-- At the Hackathon -->
-			<div class="row">
-				<div class="col-md-6" >
-					<div class="widget widget-conf">
-						<img src='{{ site.url }}{{ site.baseurl }}/assets/speakers.png' width="100%">
-						<div class="widget-body conf">
-							<h2>The Hackers</h2>
-							<p>We are lining up some fantastic <a href="{{ site.url }}{{ site.baseurl }}/speakers/" >speakers</a> covering a fantastic array of topics, from different API's to alternative languages.</p>
+						<div class="row" >
+							<div class="col-md-12" >
+								<p>This year is our biggest ever hackathon - being held in one of the best venues Birmingham have to offer.</p>
+							</div>
 						</div>
-					</div>
-				</div>
-				<div class="col-md-6" >
-					<div class="widget widget-conf">
-						<img src='{{ site.url }}{{ site.baseurl }}/assets/catering.png' width="100%">
-						<div class="widget-body conf">
-							<h2>Snacks, Drinks &amp; Lunch</h2>
-							<p>You'll find unlimited coffee and tea, a lot of snacks and lunch at the conference. Plenty to keep you going during the day.</p>
+
+						<!-- At the confernece -->
+						<div class="row">
+							<div class="col-md-6" >
+								<div class="widget widget-conf">
+									<img src='{{ site.url }}{{ site.baseurl }}/assets/speakers.png' width="100%">
+									<div class="widget-body conf">
+										<h2>The Tech</h2>
+										<p>We will have plenty of API's and technology for you to play with. Lot's to hack on!</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6" >
+								<div class="widget widget-conf">
+									<img src='{{ site.url }}{{ site.baseurl }}/assets/catering.png' width="100%">
+									<div class="widget-body conf">
+										<h2>Snacks, Drinks &amp; Meals</h2>
+										<p>You'll find plenty of meals, snacks and drinks. Enough to fuel your hacks for 24 hours.</p>
+									</div>
+								</div>
+							</div>
 						</div>
+
+						<!-- Location -->
+						<div class="row" style="margin-top: 30px">
+							<div class="col-md-12" >
+								<h3>The Venue</h3>
+								<p class="desc">We are at <a href="http://birmingham.impacthub.net" target="_blank" >Impact Hub Birmingham</a> this year. Impact Hub is a fantastic coworking space, a community of purpose driven makers, doers, entrepreneurs, activists and dreamers committed to building a better city and world.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 map-view map-noscroll-container" style="">
+								{% include hackathon-map.html %}
+							</div>
+							<div class="col-md-6" >
+								<p>Impact Hub Birmingham
+								<br/>Walker Building
+								<br/>58 Oxford Street
+								<br/>Birmingham
+								<br/>B5 5NY</p>
+
+								<p><strong>Doors open:</strong> Saturday 10:00am<br />
+								<strong>Hacking Starts:</strong> Saturday 1:00pm<br />
+								<strong>Hacking Ends:</strong> Sunday 1:00pm<br />
+								<strong>Day Finish:</strong> Sunday 5:30pm</p>
+							</div>
+						</div>
+
+						<!-- Attendee Benefits -->
+						<div class="row" >
+							<div class="col-md-12" >
+
+							</div>
+						</div>
+
+						<!--
+						<div class="row" >
+							<div class="col-md-12" >
+								<h2>The Schedule</h2>
+								<table class="table table-bordered table-condensed">
+									<thead>
+										<tr>
+											<th>Time</th>
+											<th>Track 1</th>
+											<th>Track 2</th>
+											<th>Workshops</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th>08:30 - 09:30</th>
+											<td colspan="3" >
+												Registration
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						-->
+
+						<!-- Here endeth the content -->
 					</div>
 				</div>
 			</div>
 
-			<!-- Location -->
-			<div class="row" style="margin-top: 30px">
-				<div class="col-md-12" >
-					<h3>The Venue</h3>
-					<p class="desc">We are at <a href="https://birmingham.impacthub.net/" target="_blank" >Impact Hub Birmingham</a> this year. Impact Hub Birmingham during the week is a fantastic coworking space, with a community of purpose driven makers, doers, entrepreneurs, activists and dreamers committed to building a better city and world.</p>
-					<p class="desc">It's also really well located for getting to the event by train and coach, as it's in walking distance of Birmingham New Street, Moor Street and Birmingham Coach Station.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6 map-view map-noscroll-container" style="">
-					{% include hackathon-map.html %}
-				</div>
-				<div class="col-md-6" >
-					<p>Impact Hub Birmingham
-					<br/>Walker Building
-					<br/>58 Oxford Street
-					<br/>Digbeth
-					<br/>Birmingham
-					<br/>B5 5NR</p>
-
-					<p><strong>Doors open:</strong> 8:30am<br />
-					<strong>First Talk:</strong> 9:30am<br />
-					<strong>Day Finish:</strong> 5:30pm</p>
-				</div>
-			</div>
 		</div>
 	</div>
