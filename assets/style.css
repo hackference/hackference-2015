@@ -380,7 +380,7 @@ p.desc, div.desc {
 	font-size: 15px;
 }
 
-div.desc { 
+div.desc {
 	margin: 0 0 10px;
 }
 .speaker-details h3 {
@@ -766,4 +766,8 @@ ul.desc-ul {
 
 ul.desc-ul li {
 	font-size: 15px;
+}
+
+#schedule a {
+	color: #2c3e50;
 }
