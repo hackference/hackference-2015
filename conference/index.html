@@ -83,35 +83,213 @@ title: Hackference 2015 - Conference
 						<div class="row" style="margin-top: 30px">
 							<div class="col-md-12" >
 								<h3>The Schedule</h3>
-								<p class="desc">We are currently confirming our speakers for the event at the moment, so we are unsure of our schedule yet. We'll release a full schedule closer to the event, so make sure you subscribed to our newsletter (it's at the bottom of the page) to find out more.</p>
+								<!-- <p class="desc">We are currently confirming our speakers for the event at the moment, so we are unsure of our schedule yet. We'll release a full schedule closer to the event, so make sure you subscribed to our newsletter (it's at the bottom of the page) to find out more.</p> -->
 							</div>
 						</div>
 
-						<!--
-						<div class="row" >
+						<!-- Conference -->
+						<div class="row" id="schedule" >
 							<div class="col-md-12" >
-								<h2>The Schedule</h2>
-								<table class="table table-bordered table-condensed">
-									<thead>
-										<tr>
-											<th>Time</th>
-											<th>Track 1</th>
-											<th>Track 2</th>
-											<th>Workshops</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<th>08:30 - 09:30</th>
-											<td colspan="3" >
-												Registration
-											</td>
-										</tr>
-									</tbody>
-								</table>
+								<!-- Tracks -->
+								<div class="row" >
+									<div class="col-xs-offset-1 col-xs-4 text-center" >
+										<h3>Track 1</h3>
+									</div>
+									<div class="col-xs-4 text-center" >
+										<h3>Track 2</h3>
+									</div>
+									<div class="col-xs-3 text-center" >
+										<h3>Workshop</h3>
+									</div>
+								</div>
+								<!-- Open -->
+								<div class="row" >
+									<div class="col-xs-1" >
+										09:00
+									</div>
+									<div class="col-xs-11 text-center" >
+										<p>Registration</p>
+									</div>
+								</div>
+								<!-- Talks - 1 -->
+								<div class="row" >
+									<div class="col-xs-1" >
+										09:30
+									</div>
+									<div class="col-xs-11 text-left" >
+										<a href="{{ site.url }}{{ site.baseurl }}/speakers/rob-spectre.html#talk" >
+											<p><strong>Rob Spectre</strong></p>
+										</a>
+									</div>
+								</div>
+								<!-- Talks - 2 -->
+								<div class="row" >
+									<div class="col-xs-1" >
+										10:30
+									</div>
+									<div class="col-xs-4 text-left" >
+										<a href="{{ site.url }}{{ site.baseurl }}/speakers/callum-hopkins.html#talk" >
+											<p>The importance of side projects</p>
+											<p><strong>Callum Hopkins</strong></p>
+										</a>
+									</div>
+									<div class="col-xs-4 text-left" >
+										<a href="{{ site.url }}{{ site.baseurl }}/speakers/dan-jenkins.html#talk" >
+											<p>WebRTC Reborn</p>
+											<p><strong>Dan Jenkins</strong></p>
+										</a>
+									</div>
+								</div>
+								<!-- Talks - 3 -->
+								<div class="row" >
+									<div class="col-xs-1" >
+										11:30
+									</div>
+									<div class="col-xs-4 text-left" >
+										<a href="{{ site.url }}{{ site.baseurl }}/speakers/tim-messerschmidt.html#talk" >
+											<p>Death to Passwords</p>
+											<p><strong>Tim Messerschmidt</strong></p>
+										</a>
+									</div>
+									<div class="col-xs-4 text-left" >
+										<a href="{{ site.url }}{{ site.baseurl }}/speakers/simon-tabor.html#talk" >
+											<p>Super-Scalable Redis for Fun and Profit!</p>
+											<p><strong>Simon Tabor</strong></p>
+										</a>
+									</div>
+									<div class="col-xs-3 text-left" >
+										<p>Web Performance &amp; Compatibility Lab</p>
+										<p><strong><a href="{{ site.url }}{{ site.baseurl }}/speakers/martin-beeby.html#talk" >Martin Beeby</a> &amp; <a href="{{ site.url }}{{ site.baseurl }}/speakers/martin-kearn.html#talk" >Martin Kearn</a></strong></p>
+									</div>
+								</div>
+								<!-- Talks - 4 -->
+								<div class="row" >
+									<div class="col-xs-1" >
+										12:30
+									</div>
+									<div class="col-xs-4 text-left" >
+										<a href="{{ site.url }}{{ site.baseurl }}/speakers/phil-leggetter.html#talk" >
+											<p>Why You Should be Using Web Components Right Now. And How.</p>
+											<p><strong>Phil Leggetter</strong></p>
+										</a>
+									</div>
+									<div class="col-xs-4 text-left" >
+										<a href="{{ site.url }}{{ site.baseurl }}/speakers/melinda-seckington.html#talk" >
+											<p>How and Why We Run Internal Hackdays</p>
+											<p><strong>Melinda Seckington</strong></p>
+										</a>
+									</div>
+								</div>
+								<!-- Lunch -->
+								<div class="row" >
+									<div class="col-xs-1" >
+										13:20
+									</div>
+									<div class="col-xs-11 text-center" >
+										<p>Lunch</p>
+									</div>
+								</div>
+								<!-- Talks - 5 -->
+								<div class="row" >
+									<div class="col-xs-1" >
+										14:00
+									</div>
+									<div class="col-xs-4 text-left" >
+										<a href="{{ site.url }}{{ site.baseurl }}/speakers/nicolas-grenie.html#talk" >
+											<p>Connecting and managing Micro-services</p>
+											<p><strong>Nicolas Grenie</strong></p>
+										</a>
+									</div>
+									<div class="col-xs-4 text-left" >
+										<a href="{{ site.url }}{{ site.baseurl }}/speakers/hugh-rawlinson.html#talk" >
+											<p>Javascript and Music: A tale of many scary noises</p>
+											<p><strong>Hugh Rawlinson</strong></p>
+										</a>
+									</div>
+									<div class="col-xs-3 text-left" >
+										<a href="{{ site.url }}{{ site.baseurl }}/speakers/john-stevenson.html#talk" >
+											<p>Getting started with Clojure</p>
+											<p><strong>John Stevenson</strong></p>
+										</a>
+									</div>
+								</div>
+								<!-- Talks - 6 -->
+								<div class="row" >
+									<div class="col-xs-1" >
+										15:00
+									</div>
+									<div class="col-xs-4 text-left" >
+										<a href="{{ site.url }}{{ site.baseurl }}/speakers/etiene-dalcol.html#talk" >
+											<p>What I learned teaching programming to 150 young women</p>
+											<p><strong>Etiene Dalcol</strong></p>
+										</a>
+									</div>
+									<div class="col-xs-4 text-left" >
+										<a href="{{ site.url }}{{ site.baseurl }}/speakers/sam-phippen.html#talk" >
+											<p>Single Page Web Apps don't work, reprise</p>
+											<p><strong>Sam Phippen</strong></p>
+										</a>
+									</div>
+								</div>
+								<!-- Talks - 7 -->
+								<div class="row" >
+									<div class="col-xs-1" >
+										16:00
+									</div>
+									<div class="col-xs-4 text-left" >
+										<a href="{{ site.url }}{{ site.baseurl }}/speakers/ruth-john.html#talk" >
+											<p>A Journey Through Browser API Space &amp; Time.</p>
+											<p><strong>Ruth John</strong></p>
+										</a>
+									</div>
+									<div class="col-xs-4 text-left" >
+										<a href="{{ site.url }}{{ site.baseurl }}/speakers/tim-perry.html#talk" >
+											<p>Your Web Stack Would Betray You In An Instant</p>
+											<p><strong>Tim Perry</strong></p>
+										</a>
+									</div>
+									<div class="col-xs-3 text-left" >
+										<p><strong>Lightning Talks</strong></p>
+										<a href="{{ site.url }}{{ site.baseurl }}/speakers/joe-nash.html#talk" >
+											<p>Tokenisation &amp; Immersion</p>
+											<p><strong>Joe Nash</strong></p>
+										</a>
+										<a href="{{ site.url }}{{ site.baseurl }}/speakers/manoj-natwani.html#talk" >
+											<p>Winning at Hackathons</p>
+											<p><strong>Manoj Nathwani</strong></p>
+										</a>
+									</div>
+								</div>
+								<!-- Talks - 8 -->
+								<div class="row" >
+									<div class="col-xs-1" >
+										17:00
+									</div>
+									<div class="col-xs-4 text-left" >
+										<a href="{{ site.url }}{{ site.baseurl }}/speakers/robin-johnson.html#talk" >
+											<p>The Value of Open Source</p>
+											<p><strong>Robin Johnson</strong></p>
+										</a>
+									</div>
+									<div class="col-xs-4 text-left" >
+										<a href="{{ site.url }}{{ site.baseurl }}/speakers/jonathan-kingsley.html#talk" >
+											<p>Fireworks As A Service: Building IoT devices with a Boom</p>
+											<p><strong>Jonathan Kingsley</strong></p>
+										</a>
+									</div>
+								</div>
+								<!-- Closing -->
+								<div class="row" >
+									<div class="col-xs-1" >
+										17:50
+									</div>
+									<div class="col-xs-11 text-center" >
+										<p>Closing Remarks</p>
+									</div>
+								</div>
 							</div>
 						</div>
-						-->
+
 
 						<!-- Here endeth the content -->
 					</div>
